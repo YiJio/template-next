@@ -1,0 +1,178 @@
+/* ==================================== */
+/*   R O O T   S T Y L E S              */
+/* ==================================== */
+
+/* ------------------------------------ */
+/*   ROOT                               */
+/* ------------------------------------ */
+:root {
+	/* SPACING -------------------------- */
+	--spacing-0:2px;
+	--spacing-1:4px;
+	--spacing-2:8px;
+	--spacing-3:12px;
+	--spacing-4:16px;
+	--spacing-5:20px;
+	--spacing-6:24px;
+	--spacing-7:28px;
+	--spacing-8:32px;
+	--spacing-9:36px;
+	--spacing-10:40px;
+	--spacing-11:44px;
+	--spacing-12:48px;
+	--spacing-13:56px;
+	--spacing-14:60px;
+	--spacing-15:64px;
+	--spacing-16:72px;
+	--spacing-17:80px;
+	--spacing-18:96px;
+
+	/* COLORS --------------------------- */
+	/* monotone */
+	--color-white:255 255 255;
+	--color-black:0 0 0;
+	/* no theme: gray */
+	--color-gray-0:0;
+	--color-gray-1:0;
+	--color-gray-2:0;
+	--color-gray-3:0;
+	--color-gray-4:0;
+	--color-gray-5:0;
+	--color-gray-6:0;
+	--color-gray-7:0;
+	--color-gray-8:0;
+	--color-gray-9:0;
+	--color-gray-10:0;
+	/* no theme: brand */
+	/* no theme: other */
+	--color-red:0;
+	--color-yellow:0;
+	--color-green:0;
+	--color-blue:0;
+
+	/* FONT FAMILIES -------------------- */
+	--font-family-default:'Roboto', system-ui, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-family-code:'Roboto Mono', monospace;
+	--font-family-heading:'Roboto Serif', sans-serif;
+	--font-family-quote:'Roboto Serif', sans-serif;
+
+	/* FONT WEIGHTS --------------------- */
+	--font-weight-hairline:100;
+	--font-weight-thin:200;
+	--font-weight-light:300;
+	--font-weight-regular:400;
+	--font-weight-medium:500;
+	--font-weight-semibold:600;
+	--font-weight-bold:700;
+	--font-weight-extrabold:800;
+	--font-weight-black:900;
+
+	/* FONT SIZES ----------------------- */
+	--font-size-0:10px;
+	--font-size-1:11px;
+	--font-size-2:12px;
+	--font-size-3:13px;
+	--font-size-4:14px;
+	--font-size-5:15px;
+	--font-size-6:16px;
+	--font-size-7:18px;
+	--font-size-8:20px;
+	--font-size-9:24px;
+	--font-size-10:32px;
+	--font-size-11:36px;
+	--font-size-12:48px;
+
+	/* ICON SIZES ----------------------- */
+	--icon-size-0:12px;
+	--icon-size-1:14px;
+	--icon-size-2:16px;
+	--icon-size-3:18px;
+	--icon-size-4:20px;
+	--icon-size-5:24px;
+	--icon-size-6:32px;
+	--icon-size-7:36px;
+	--icon-size-8:48px;
+	--icon-size-9:64px;
+	--icon-size-10:80px;
+	--icon-size-11:96px;
+
+	/* BREAKPOINT SIZES ----------------- */
+	--bp-size-sm:480px;
+	--bp-size-md:768px;
+	--bp-size-lg:1024px;
+	--bp-size-xl:1280px;
+
+	/* SIZES ---------------------------- */
+	--size-0000:2px;
+	--size-000:4px;
+	--size-00:8px;
+	--size-0:16px;
+	--size-1:20px;
+	--size-2:24px;
+	--size-3:28px;
+	--size-4:32px;
+	--size-5:36px;
+	--size-6:40px;
+	--size-7:44px;
+	--size-8:48px;
+	--size-9:52px;
+	--size-10:56px;
+	--size-11:60px;
+	--size-12:64px;
+	--size-13:72px;
+	--size-14:80px;
+	--size-15:96px;
+	--size-16:100px;
+	--size-17:112px;
+	--size-18:120px;
+	--size-19:128px;
+	--size-20:144px;
+	--size-21:160px;
+	--size-22:192px;
+	--size-23:256px;
+	--size-24:288px;
+	--size-25:320px;
+	--size-26:384px;
+	--size-27:448px;
+	--size-28:512px;
+	--size-29:576px;
+	--size-30:672px;
+	--size-31:768px;
+	--size-32:896px;
+	--size-33:1024px;
+	--size-34:1152px;
+	--size-35:1280px;
+
+	/* RADII ---------------------------- */
+	--radius-0:0;
+	--radius-1:2px;
+	--radius-2:4px;
+	--radius-3:6px;
+	--radius-4:8px;
+	--radius-5:16px;
+	--radius-6:20px;
+	--radius-full:9999px;
+
+	/* CURSORS -------------------------- */
+	--cursor-button:pointer;
+	--cursor-checkbox:pointer;
+	--cursor-disabled:default;
+	--cursor-drag:grab;
+	--cursor-dragging:grabbing;
+	--cursor-link:pointer;
+	--cursor-radio:default;
+	--cursor-help:help;
+
+	/* Z INDICES ------------------------ */
+	--z-hide:auto;
+	--z-base:0;
+	--z-dropdown:1000;
+	--z-sticky:1100;
+	--z-overlay:1300;
+	--z-modal:1400;
+	--z-popover:1500;
+	--z-tooltip:1800;
+
+	/* OPACITY -------------------------- */
+	--opacity-disabled:0.5;
+}

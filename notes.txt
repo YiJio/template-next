@@ -1,0 +1,30 @@
+NOTES TO MYSELF FOR PROJECTS
+
+- BY DEFAULT THIS TEMPLATE ALREADY STARTS UP A NEXT APP.
+
+- EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init` AND `npm i`!!!
+
+- Remove utility packages `date-fns` (along with DateUtil) or `chromajs` (along with ColorUtil).
+
+- Can remove any util in the utils directory if not needed.
+
+- Uncomment from .gitignore.
+
+- UPDATE react, react-dom, next, etc. libaries to latest version if necessary.
+-- npm i <package>@latest
+
+- Delete `vercel.json` if NOT NEEDED.
+
+- Remove contexts/providers/stores/atoms directories if not using them for specific state management.
+
+- THIS NEXT TEMPLATE DOES NOT USE TAILWIND CSS! Fill out the fonts.css, root.css, theme.css.
+
+- Each component must be in their own FOLDER with `styles.css`!!!
+
+- After first commit to GitHub, add a LICENSE if possible and git pull on local.
+
+-----------
+CONVENTIONS
+-----------
+css - bem convention
+

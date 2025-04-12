@@ -1,0 +1,168 @@
+/* ==================================== */
+/*   Q U I C K   S T Y L E S            */
+/* ==================================== */
+
+/* use these helpers only if you need this
+/* quickly without using Tailwind, styled
+/* components, or JS to help you generate;
+/* should only be for nonspecific classes
+/* OR direct inline styling of elements
+/* for dynamic changes */
+
+/* ------------------------------------ */
+/*   HELPERS                            */
+/* ------------------------------------ */
+.h-inverted { filter:invert(1); }
+.h-flipped { transform:scale(-1); }
+
+/* ------------------------------------ */
+/*   WIDTHS                             */
+/* ------------------------------------ */
+
+/* PERCENTAGES ------------------------ */
+.h-w-0 { width:0%; }
+.h-w-5 { width:5%; }
+.h-w-10 { width:10%; }
+.h-w-15 { width:15%; }
+.h-w-20 { width:20%; }
+.h-w-25 { width:25%; }
+.h-w-30 { width:30%; }
+.h-w-33 { width:calc(100% / 3); }
+.h-w-35 { width:35%; }
+.h-w-40 { width:40%; }
+.h-w-45 { width:45%; }
+.h-w-50 { width:50%; }
+.h-w-55 { width:55%; }
+.h-w-60 { width:60%; }
+.h-w-65 { width:65%; }
+.h-w-67 { width:calc(100% / (3 / 2)); }
+.h-w-70 { width:70%; }
+.h-w-75 { width:75%; }
+.h-w-80 { width:80%; }
+.h-w-85 { width:85%; }
+.h-w-90 { width:90%; }
+.h-w-95 { width:95%; }
+.h-w-100 { width:100%; }
+
+/* OTHER ------------------------------ */
+.h-w-auto { width:auto; }
+.h-w-full { width:100%; }
+.h-w-screen { width:100vw; }
+
+/* ------------------------------------ */
+/*   HEIGHTS                            */
+/* ------------------------------------ */
+
+/* PERCENTAGES ------------------------ */
+.h-h-0 { height:0%; }
+.h-h-5 { height:5%; }
+.h-h-10 { height:10%; }
+.h-h-15 { height:15%; }
+.h-h-20 { height:20%; }
+.h-h-25 { height:25%; }
+.h-h-30 { height:30%; }
+.h-h-35 { height:35%; }
+.h-h-40 { height:40%; }
+.h-h-45 { height:45%; }
+.h-h-50 { height:50%; }
+.h-h-55 { height:55%; }
+.h-h-60 { height:60%; }
+.h-h-65 { height:65%; }
+.h-h-70 { height:70%; }
+.h-h-75 { height:75%; }
+.h-h-80 { height:80%; }
+.h-h-85 { height:85%; }
+.h-h-90 { height:90%; }
+.h-h-95 { height:95%; }
+.h-h-100 { height:100%; }
+
+/* OTHER ------------------------------ */
+.h-h-auto { height:auto; }
+.h-h-full { height:100%; }
+.h-h-screen { height:100vh; }
+
+/* ------------------------------------ */
+/*   FLEX                               */
+/* ------------------------------------ */
+
+.h-flex { display:flex; }
+.h-ac { align-items:center; }
+.h-as { align-items:flex-start; }
+.h-ae { align-items:flex-end; }
+.h-ab { align-items:baseline; }
+.h-jc { justify-content:center; }
+.h-js { justify-content:flex-start; }
+.h-je { justify-content:flex-end; }
+.h-jb { justify-content:baseline; }
+.h-jsb { justify-content:space-between; }
+.h-fc { flex-direction:column; }
+.h-fr { flex-direction:row; }
+.h-wrap { flex-wrap:wrap; }
+
+/* ------------------------------------ */
+/*   MARGIN                             */
+/* ------------------------------------ */
+
+/* TOP/BOTTOM ------------------------- */
+.h-mt-4 { margin-top:var(--spacing-1); }
+.h-mt-4n { margin-top:calc(var(--spacing-1) * -1); }
+.h-mt-8 { margin-top:var(--spacing-2); }
+.h-mt-8n { margin-top:calc(var(--spacing-2) * -1); }
+.h-mb-8 { margin-bottom:var(--spacing-2); }
+.h-mb-8n { margin-bottom:calc(var(--spacing-2) * -1); }
+.h-my-8 { margin-top:var(--spacing-2); margin-bottom:var(--spacing-2); }
+.h-mt-20 { margin-top:var(--spacing-5); }
+.h-mb-20 { margin-bottom:var(--spacing-5); }
+.h-my-20 { margin-top:var(--spacing-5); margin-bottom:var(--spacing-5); }
+
+/* LEFT/RIGHT ------------------------- */
+.h-ml-4 { margin-left:var(--spacing-1); }
+.h-mr-4 { margin-right:var(--spacing-1); }
+.h-mx-4 { margin-left:var(--spacing-1); margin-right:var(--spacing-1); }
+.h-ml-8 { margin-left:var(--spacing-2); }
+.h-mr-8 { margin-right:var(--spacing-2); }
+.h-mx-8 { margin-left:var(--spacing-2); margin-right:var(--spacing-2); }
+.h-ml-16 { margin-left:var(--spacing-4); }
+.h-mr-16 { margin-right:var(--spacing-4); }
+.h-mx-16 { margin-left:var(--spacing-4); margin-right:var(--spacing-4); }
+.h-ml-20 { margin-left:var(--spacing-5); }
+.h-mr-20 { margin-right:var(--spacing-5); }
+.h-mx-20 { margin-left:var(--spacing-5); margin-right:var(--spacing-5); }
+
+/* ------------------------------------ */
+/*   PADDING                            */
+/* ------------------------------------ */
+
+/* TOP/BOTTOM ------------------------- */
+.h-pt-8 { padding-top:var(--spacing-2); }
+.h-pb-8 { padding-bottom:var(--spacing-2); }
+.h-py-8 { padding-top:var(--spacing-2); padding-bottom:var(--spacing-2); }
+.h-pt-20 { padding-top:var(--spacing-5); }
+.h-pb-20 { padding-bottom:var(--spacing-5); }
+.h-py-20 { padding-top:var(--spacing-5); padding-bottom:var(--spacing-5); }
+
+/* LEFT/RIGHT ------------------------- */
+.h-pl-4 { padding-left:var(--spacing-1); }
+.h-pr-4 { padding-right:var(--spacing-1); }
+.h-px-4 { padding-left:var(--spacing-1); padding-right:var(--spacing-1); }
+.h-pl-8 { padding-left:var(--spacing-2); }
+.h-pr-8 { padding-right:var(--spacing-2); }
+.h-px-8 { padding-left:var(--spacing-2); padding-right:var(--spacing-2); }
+.h-pl-16 { padding-left:var(--spacing-4); }
+.h-pr-16 { padding-right:var(--spacing-4); }
+.h-px-16 { padding-left:var(--spacing-4); padding-right:var(--spacing-4); }
+.h-pl-20 { padding-left:var(--spacing-5); }
+.h-pr-20 { padding-right:var(--spacing-5); }
+.h-px-20 { padding-left:var(--spacing-5); padding-right:var(--spacing-5); }
+
+/* ------------------------------------ */
+/*   GAPS                               */
+/* ------------------------------------ */
+
+.h-gap-0 { gap:0; }
+.h-gap-2 { gap:var(--spacing-0); }
+.h-gap-4 { gap:var(--spacing-1); }
+.h-gap-8 { gap:var(--spacing-2); }
+.h-gap-12 { gap:var(--spacing-3); }
+.h-gap-16 { gap:var(--spacing-4); }
+.h-gap-20 { gap:var(--spacing-5); }
