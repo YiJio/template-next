@@ -1,0 +1,19 @@
+/* ==================================== */
+/*   D E F A U L T   S T Y L E S        */
+/* ==================================== */
+
+* { padding:0; margin:0; outline:0; border:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--font-family-default); font-size:var(--font-size-6); background:var(--surface-frame); color:var(--text-primary); }
+
+p {  }
+a { color:var(--text-link); text-decoration:none; }
+code { font-family:var(--font-family-code); font-size:var(--font-size-4); }
+
+input, textarea, button { color:var(--text-primary); font-family:var(--font-family-default); }
+textarea { resize:none; }
+label { display:flex; align-items:center; }
+
+button { cursor:var(--cursor-button); }
+
+:disabled { opacity:var(--opacity-disabled); cursor:var(--cursor-disabled); }

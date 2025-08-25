@@ -41,5 +41,8 @@ export const HelperUtil = {
 		const lines = content.trim().split('\n');
 		const list = lines.filter(line => line.trim().startsWith(punct)).map(line => line.trim().substring(1).trim());
 		return list;
+	},
+	isCacheValid(timestamp: number, expiry: number) {
+		return Date.now() - timestamp < expiry;
 	}
 }

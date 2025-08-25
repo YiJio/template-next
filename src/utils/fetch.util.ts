@@ -2,6 +2,8 @@
 // should probably update with try catch
 // change function names to get/set instead of fetch for more clarity
 
+// instead of utils, could probably put it under 'lib' folder if using services
+
 // important variables
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 

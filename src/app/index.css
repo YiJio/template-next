@@ -5,3 +5,5 @@
 /*@import [PACKAGES BEFORE OVERRIDES]*/
 /*@import '../styles/overrides.css';*/
 @import '../styles/quick.css';
+
+/*@import "tailwindcss";*/
